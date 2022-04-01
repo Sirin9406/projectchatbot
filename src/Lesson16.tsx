@@ -20,7 +20,7 @@ export const Lesson16: FunctionComponent = () => {
       />
       <label className="a-blocks-label5">A Blocks</label>
       <label className="a-code-label5">A Code</label>
-      <img className="numgif1-1-icon4" alt="" src="numgif1-1@2x.png" />
+      <img className="numgif1-1-icon4" alt="" src="icon+ledsgif.gif" />
       <img className="image-11-icon" alt="" src="image-11@2x.png" />
       <img className="image-12-icon" alt="" src="image-12@2x.png" />
     </div>

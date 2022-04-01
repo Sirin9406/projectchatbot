@@ -21,6 +21,10 @@ export const Lesson1: FunctionComponent = () => {
     navigate("/lesson15");
   }, [navigate]);
 
+  const onRectangleImage3Click = useCallback(() => {
+    navigate("/lesson17");
+  }, [navigate]);
+
   const onRectangleImage4Click = useCallback(() => {
     navigate("/lesson12");
   }, [navigate]);
@@ -42,38 +46,43 @@ export const Lesson1: FunctionComponent = () => {
         onClick={onPrevious1ImageClick}
       />
       <img
-        className="rectangle-icon"
+        className="rectangle-icon1"
         alt=""
         src="FirstLesNum@2x.png"
         onClick={onRectangleImageClick}
       />
       <img
-        className="rectangle-icon1"
+        className="rectangle-icon2"
         alt=""
         src="rectangle-13@2x.png"
         onClick={onRectangleImage1Click}
       />
       <img
-        className="rectangle-icon2"
+        className="rectangle-icon3"
         alt=""
         src="rectangle-15@2x.png"
         onClick={onRectangleImage2Click}
       />
-      <img className="rectangle-icon3" alt="" src="rectangle-17@2x.png" />
       <img
         className="rectangle-icon4"
+        alt=""
+        src="rectangle-17@2x.png"
+        onClick={onRectangleImage3Click}
+      />
+      <img
+        className="rectangle-icon5"
         alt=""
         src="rectangle-12@2x.png"
         onClick={onRectangleImage4Click}
       />
       <img
-        className="rectangle-icon5"
+        className="rectangle-icon6"
         alt=""
         src="rectangle-14@2x.png"
         onClick={onRectangleImage5Click}
       />
       <img
-        className="rectangle-icon6"
+        className="rectangle-icon7"
         alt=""
         src="rectangle-16@2x.png"
         onClick={onRectangleImage6Click}

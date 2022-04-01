@@ -1,3 +1,22 @@
+.rectangle-icon13 {
+  position: absolute;
+  top: 21px;
+  left: 19px;
+  border-radius: 10px;
+  width: 336px;
+  height: 769px;
+  display: none;
+}
+.previous-2-icon6 {
+  position: absolute;
+  top: 44px;
+  left: 156px;
+  width: 63px;
+  height: 63px;
+  object-fit: cover;
+  animation: 1s ease 0s 1 normal none bounce-in-top;
+  cursor: pointer;
+}
 @keyframes bounce-in-top {
   0% {
     transform: translateY(-500px);
@@ -15,7 +34,7 @@
   }
   72%,
   90%,
-  to {
+  100% {
     transform: translateY(0);
     animation-timing-function: ease-out;
   }
@@ -28,77 +47,72 @@
     animation-timing-function: ease-in;
   }
 }
+.a-blocks-label6 {
+  position: absolute;
+  top: 121px;
+  left: 91px;
+  font-weight: 700;
+  display: inline-block;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
 @keyframes scale-up {
   0% {
     transform: scale(0.5);
   }
-  to {
+  100% {
     transform: scale(1);
   }
 }
-.rectangle-icon13 {
-  position: absolute;
-  top: 21px;
-  left: 19px;
-  border-radius: 10px;
-  width: 336px;
-  height: 769px;
-  display: none;
-}
-.image-2-icon1 {
-  top: 589px;
-  left: 48px;
-  border-radius: 5px;
-  width: 279px;
-  height: 101px;
-  animation: 1s ease 0s 1 normal none scale-up;
-}
-.image-1-icon1,
-.image-2-icon1,
-.previous-2-icon6 {
-  position: absolute;
-  object-fit: cover;
-}
-.image-1-icon1 {
-  top: 468px;
-  left: 48px;
-  border-radius: 5px;
-  width: 281px;
-  height: 92px;
-  animation: 1s ease 0s 1 normal none scale-up;
-}
-.previous-2-icon6 {
-  top: 44px;
-  left: 156px;
-  width: 63px;
-  height: 63px;
-  animation: 1s ease 0s 1 normal none bounce-in-top;
-  cursor: pointer;
-}
-.a-blocks-label6 {
-  top: 132px;
-  left: 92px;
-  font-weight: 700;
-  display: inline-block;
-}
-.a-blocks-label6,
-.a-code-label6,
-.numgif1-1-icon5 {
-  position: absolute;
-  animation: 1s ease 0s 1 normal none scale-up;
-}
 .a-code-label6 {
-  top: 393px;
-  left: 106px;
+  position: absolute;
+  top: 364px;
+  left: 105px;
   font-weight: 700;
   display: inline-block;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .numgif1-1-icon5 {
-  top: 205px;
+  position: absolute;
+  top: 188px;
   left: 34px;
   border-radius: 5px;
   width: 308px;
   height: 163px;
+  object-fit: cover;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.image-13-icon {
+  position: absolute;
+  top: 425px;
+  left: 75px;
+  border-radius: 5px;
+  width: 219px;
+  height: 184px;
+  object-fit: cover;
+}
+.image-14-icon {
+  position: absolute;
+  top: 622px;
+  left: 73px;
+  border-radius: 5px;
+  width: 221px;
+  height: 174px;
   object-fit: cover;
 }
 .lesson1-7-div {
