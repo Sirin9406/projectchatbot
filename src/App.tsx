@@ -91,7 +91,6 @@ function App() {
       <Route path="/lesson1" element={<Lesson1 />} />
       <Route path="/lesson11" element={<Lesson11 />} />
       <Route path="/lesson12" element={<Lesson12 />} />
-
       <Route path="/lesson13" element={<Lesson13 />} />
 
       <Route path="/lesson14" element={<Lesson14 />} />
