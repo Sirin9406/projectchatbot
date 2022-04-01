@@ -1,0 +1,178 @@
+.group-icon {
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 56px;
+  height: 50px;
+}
+.b {
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  font-size: 48px;
+  font-family: Inter;
+  display: inline-block;
+  color: #1dff5c;
+  text-align: left;
+  width: 33px;
+  height: 64px;
+}
+.group-button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 39px;
+  left: 159px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 56px;
+  height: 64px;
+}
+.group-button:hover {
+  animation: 2s ease 0s 1 normal none pulsate;
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.rectangle-div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  background-color: #5f03aa;
+  width: 296px;
+  height: 89px;
+}
+.rectangle-div1 {
+  position: absolute;
+  top: 13px;
+  left: 9px;
+  border-radius: 10px;
+  background-color: #ffd12f;
+  width: 6px;
+  height: 65px;
+}
+.basic-command {
+  position: absolute;
+  top: 24px;
+  left: 31px;
+  font-size: 36px;
+  font-family: Inria Sans;
+  display: inline-block;
+  color: #fff;
+  text-align: left;
+}
+.group-button1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 126px;
+  left: 39px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 89px;
+}
+.group-button1:active {
+  animation: 3s ease 0s 1 normal none jello-horizontal;
+}
+@keyframes jello-horizontal {
+  0%,
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+.lesson-2-b {
+  position: absolute;
+  top: 16px;
+  left: 31px;
+  display: inline-block;
+}
+.group-div {
+  position: absolute;
+  top: 238px;
+  left: 39px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 89px;
+}
+.group-div1 {
+  position: absolute;
+  top: 350px;
+  left: 39px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 89px;
+}
+.group-div2 {
+  position: absolute;
+  top: 462px;
+  left: 39px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 89px;
+}
+.group-div3 {
+  position: absolute;
+  top: 574px;
+  left: 39px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 89px;
+}
+.group-div4 {
+  position: absolute;
+  top: 686px;
+  left: 39px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 89px;
+}
+.lesson-div {
+  position: relative;
+  background-color: #fbd386;
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Inria Sans;
+}
