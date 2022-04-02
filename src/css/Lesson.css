@@ -1,59 +1,20 @@
-.group-icon {
+.bg-lesson-icon {
   position: absolute;
-  top: 7px;
+  top: -5.47px;
+  left: 376.68px;
+  width: 861.84px;
+  height: 386.95px;
+  object-fit: cover;
+  display: none;
+}
+.download-premium-png-of-purple {
+  position: absolute;
+  top: -22px;
   left: 0px;
-  width: 56px;
-  height: 50px;
-}
-.b {
-  position: absolute;
-  top: 0px;
-  left: 12px;
-  font-size: 48px;
-  font-family: Inter;
-  display: inline-block;
-  color: #1dff5c;
-  text-align: left;
-  width: 33px;
-  height: 64px;
-}
-.group-button {
-  cursor: pointer;
-  border: none;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 39px;
-  left: 159px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 56px;
-  height: 64px;
-}
-.group-button:hover {
-  animation: 2s ease 0s 1 normal none pulsate;
-}
-@keyframes pulsate {
-  0% {
-    transform: scale(1);
-    transform-origin: center center;
-    animation-timing-function: ease-out;
-  }
-  10% {
-    transform: scale(0.91);
-    animation-timing-function: ease-in;
-  }
-  17% {
-    transform: scale(0.98);
-    animation-timing-function: ease-out;
-  }
-  33% {
-    transform: scale(0.87);
-    animation-timing-function: ease-in;
-  }
-  45% {
-    transform: scale(1);
-    animation-timing-function: ease-out;
-  }
+  width: 375px;
+  height: 834px;
+  object-fit: cover;
+  display: none;
 }
 .rectangle-div {
   position: absolute;
@@ -62,40 +23,50 @@
   border-radius: 5px;
   background-color: #5f03aa;
   width: 296px;
-  height: 89px;
+  height: 71.17px;
 }
 .rectangle-div1 {
   position: absolute;
-  top: 13px;
+  top: 10.4px;
   left: 9px;
   border-radius: 10px;
   background-color: #ffd12f;
   width: 6px;
-  height: 65px;
+  height: 51.98px;
 }
-.basic-command {
+.basic {
   position: absolute;
-  top: 24px;
-  left: 31px;
-  font-size: 36px;
+  top: 3px;
+  left: 96px;
+  font-size: 48px;
   font-family: Inria Sans;
   display: inline-block;
   color: #fff;
   text-align: left;
+  width: 116px;
+  height: 34px;
 }
-.group-button1 {
+.pixels-1-icon {
+  position: absolute;
+  top: 12px;
+  left: 31px;
+  width: 47px;
+  height: 47px;
+  object-fit: cover;
+}
+.group-button {
   cursor: pointer;
   border: none;
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 126px;
+  top: 164px;
   left: 39px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 296px;
-  height: 89px;
+  height: 71.17px;
 }
-.group-button1:active {
+.group-button:active {
   animation: 3s ease 0s 1 normal none jello-horizontal;
 }
 @keyframes jello-horizontal {
@@ -121,53 +92,162 @@
 }
 .lesson-2-b {
   position: absolute;
-  top: 16px;
-  left: 31px;
+  top: 3.43px;
+  left: 94px;
   display: inline-block;
+  width: 171px;
+  height: 46.38px;
+}
+.enter-1-icon {
+  position: absolute;
+  top: 7.43px;
+  left: 31px;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
 }
 .group-div {
   position: absolute;
-  top: 238px;
+  top: 255.57px;
   left: 39px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 296px;
-  height: 89px;
+  height: 71.17px;
+}
+.music-b {
+  position: absolute;
+  top: 4.87px;
+  left: 94px;
+  display: inline-block;
+  width: 170px;
+  height: 46.38px;
+}
+.music-1-icon {
+  position: absolute;
+  top: 9.87px;
+  left: 31px;
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
 }
 .group-div1 {
   position: absolute;
-  top: 350px;
+  top: 345.13px;
   left: 39px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 296px;
-  height: 89px;
+  height: 71.17px;
+}
+.lesson-4-b {
+  position: absolute;
+  top: 5.8px;
+  left: 31px;
+  display: inline-block;
+  width: 172px;
+  height: 46.38px;
 }
 .group-div2 {
   position: absolute;
-  top: 462px;
+  top: 435.7px;
   left: 39px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 296px;
-  height: 89px;
+  height: 71.17px;
 }
-.group-div3 {
+.polygon-icon {
   position: absolute;
-  top: 574px;
-  left: 39px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 296px;
-  height: 89px;
+  top: 523.11px;
+  left: 0px;
+  width: 216.78px;
+  height: 288.89px;
 }
-.group-div4 {
+.polygon-icon1 {
   position: absolute;
-  top: 686px;
-  left: 39px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 296px;
-  height: 89px;
+  top: 612.74px;
+  left: 227.9px;
+  width: 147.1px;
+  height: 199.26px;
+}
+.polygon-icon2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 151px;
+  height: 98px;
+}
+.polygon-icon3 {
+  position: absolute;
+  top: 0px;
+  left: 331.03px;
+  width: 105px;
+  height: 148px;
+}
+.previous-2-icon {
+  position: absolute;
+  top: 35px;
+  left: 134px;
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+  animation: 1s ease 0s 1 normal none bounce-in-top;
+}
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72%,
+  90%,
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+}
+.previous-2-icon:active {
+  animation: 1s ease 0s 1 normal none jello-horizontal;
+}
+@keyframes jello-horizontal {
+  0%,
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
 }
 .lesson-div {
   position: relative;
-  background-color: #fbd386;
+  background-color: #ffbe26;
   width: 100%;
   height: 812px;
   overflow: hidden;
