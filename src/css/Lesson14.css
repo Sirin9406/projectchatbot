@@ -36,6 +36,14 @@
     transform: scale(1);
   }
 }
+.pink-yellow-and-green-illustra5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 852px;
+  object-fit: cover;
+}
 .rectangle-icon10 {
   position: absolute;
   top: 21px;
@@ -45,7 +53,7 @@
   height: 769px;
   display: none;
 }
-.previous-2-icon3 {
+.previous-2-icon4 {
   position: absolute;
   top: 44px;
   left: 156px;
@@ -67,6 +75,7 @@
 .a-code-label3 {
   top: 393px;
   left: 106px;
+  color: #fff;
 }
 .image-7-icon,
 .image-8-icon,
@@ -101,6 +110,6 @@
   overflow: hidden;
   text-align: left;
   font-size: 40px;
-  color: #bd00ff;
+  color: #000;
   font-family: Roboto Mono;
 }

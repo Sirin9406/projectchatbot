@@ -36,6 +36,14 @@
     transform: scale(1);
   }
 }
+.pink-yellow-and-green-illustra2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 852px;
+  object-fit: cover;
+}
 .rectangle-icon8 {
   position: absolute;
   top: 21px;
@@ -55,7 +63,7 @@
 }
 .image-1-icon,
 .image-2-icon,
-.previous-2-icon {
+.previous-2-icon1 {
   position: absolute;
   object-fit: cover;
 }
@@ -67,7 +75,7 @@
   height: 92px;
   animation: 1s ease 0s 1 normal none scale-up;
 }
-.previous-2-icon {
+.previous-2-icon1 {
   top: 44px;
   left: 156px;
   width: 63px;
@@ -91,6 +99,7 @@
   top: 393px;
   left: 106px;
   font-weight: 700;
+  color: #fefdff;
   display: inline-block;
 }
 .numgif1-1-icon {
@@ -109,6 +118,6 @@
   overflow: hidden;
   text-align: left;
   font-size: 40px;
-  color: #bd00ff;
+  color: #131213;
   font-family: Roboto Mono;
 }

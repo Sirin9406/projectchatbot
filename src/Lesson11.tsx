@@ -11,11 +11,17 @@ export const Lesson11: FunctionComponent = () => {
 
   return (
     <div className="lesson1-1-div">
+      <img
+        className="pink-yellow-and-green-illustra2"
+        alt=""
+        src="pink-yellow-and-green-illustrated-were-ready-to-open-instagram-story-21@2x.png"
+      />
       <img className="rectangle-icon8" alt="" src="rectangle-7.svg" />
+      <img className="image-2-icon" alt="" src="image-2@2x.png" />
       <img className="image-2-icon" alt="" src="image-2@2x.png" />
       <img className="image-1-icon" alt="" src="image-1@2x.png" />
       <img
-        className="previous-2-icon"
+        className="previous-2-icon1"
         alt=""
         src="previous-1@2x.png"
         onClick={onPrevious2ImageClick}
@@ -26,3 +32,4 @@ export const Lesson11: FunctionComponent = () => {
     </div>
   );
 };
+

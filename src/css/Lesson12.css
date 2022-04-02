@@ -36,13 +36,20 @@
     transform: scale(1);
   }
 }
-.previous-2-icon1 {
+.pink-yellow-and-green-illustra3,
+.previous-2-icon2 {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 852px;
+  object-fit: cover;
+}
+.previous-2-icon2 {
   top: 44px;
   left: 156px;
   width: 63px;
   height: 63px;
-  object-fit: cover;
   animation: 1s ease 0s 1 normal none bounce-in-top;
   cursor: pointer;
 }
@@ -58,8 +65,9 @@
 .a-code-label1 {
   top: 373px;
   left: 106px;
+  color: #fff;
 }
-.image-3-icon,
+.image-3-icon1,
 .image-4-icon,
 .ledsgif-1-icon {
   position: absolute;
@@ -84,12 +92,11 @@
 }
 .lesson1-2-div {
   position: relative;
-  background-color: #f7f1fb;
   width: 100%;
-  height: 812px;
+  height: 848px;
   overflow: hidden;
   text-align: left;
   font-size: 40px;
-  color: #bd00ff;
+  color: #000;
   font-family: Roboto Mono;
 }

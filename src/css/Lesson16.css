@@ -45,13 +45,20 @@
   height: 769px;
   display: none;
 }
-.previous-2-icon5 {
+.pink-yellow-and-green-illustra7,
+.previous-2-icon6 {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 852px;
+  object-fit: cover;
+}
+.previous-2-icon6 {
   top: 44px;
   left: 156px;
   width: 63px;
   height: 63px;
-  object-fit: cover;
   animation: 1s ease 0s 1 normal none bounce-in-top;
   cursor: pointer;
 }
@@ -67,6 +74,7 @@
 .a-code-label5 {
   top: 365px;
   left: 106px;
+  color: #fdf9ff;
 }
 .image-11-icon,
 .image-12-icon,
@@ -103,6 +111,6 @@
   overflow: hidden;
   text-align: left;
   font-size: 40px;
-  color: #bd00ff;
+  color: #000;
   font-family: Roboto Mono;
 }

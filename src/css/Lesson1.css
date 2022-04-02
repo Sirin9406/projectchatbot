@@ -1,13 +1,3 @@
-.previous-1-icon {
-  position: absolute;
-  top: 45px;
-  left: 156px;
-  width: 63px;
-  height: 63px;
-  object-fit: cover;
-  animation: 1s ease 0s 1 normal none bounce-in-top;
-  cursor: pointer;
-}
 @keyframes bounce-in-top {
   0% {
     transform: translateY(-500px);
@@ -25,7 +15,7 @@
   }
   72%,
   90%,
-  100% {
+  to {
     transform: translateY(0);
     animation-timing-function: ease-out;
   }
@@ -38,19 +28,6 @@
     animation-timing-function: ease-in;
   }
 }
-.rectangle-icon1 {
-  position: absolute;
-  top: 152px;
-  left: 39px;
-  border-radius: 10px;
-  width: 140px;
-  height: 115px;
-  object-fit: cover;
-  cursor: pointer;
-}
-.rectangle-icon1:active {
-  animation: 3s linear 0s 1 alternate none bounce-top;
-}
 @keyframes bounce-top {
   0% {
     transform: translateY(-45px);
@@ -83,15 +60,67 @@
     transform: translateY(0);
     animation-timing-function: ease-out;
   }
-  100% {
+  to {
     transform: translateY(0);
     animation-timing-function: ease-out;
     opacity: 1;
   }
 }
-.rectangle-icon2 {
+.download-premium-png-of-purple1 {
   position: absolute;
-  top: 300px;
+  top: -24px;
+  left: 0;
+  width: 375px;
+  height: 866px;
+  object-fit: cover;
+  display: none;
+}
+.pink-yellow-and-green-illustra,
+.pink-yellow-and-green-illustra1 {
+  position: absolute;
+  top: 0;
+  left: 16.88px;
+  width: 358.12px;
+  height: 337.19px;
+  object-fit: cover;
+}
+.pink-yellow-and-green-illustra1 {
+  top: 334px;
+  left: 0;
+  width: 375px;
+  height: 478px;
+}
+.previous-1-icon,
+.rectangle-icon1 {
+  position: absolute;
+  object-fit: cover;
+  cursor: pointer;
+}
+.rectangle-icon1 {
+  top: 596px;
+  left: 39px;
+  border-radius: 10px;
+  width: 140px;
+  height: 115px;
+}
+.rectangle-icon1:active {
+  animation: 3s ease 0s 1 normal none bounce-top;
+}
+.previous-1-icon {
+  top: 45px;
+  left: 156px;
+  width: 63px;
+  height: 63px;
+  animation: 1s ease 0s 1 normal none bounce-in-top;
+}
+.rectangle-icon2,
+.rectangle-icon3,
+.rectangle-icon4,
+.rectangle-icon5,
+.rectangle-icon6,
+.rectangle-icon7 {
+  position: absolute;
+  top: 152px;
   left: 39px;
   border-radius: 10px;
   width: 140px;
@@ -100,304 +129,52 @@
   cursor: pointer;
 }
 .rectangle-icon2:active {
-  animation: 2s ease 0s 1 normal none bounce-top;
+  animation: 3s linear 0s 1 alternate none bounce-top;
 }
-@keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translateY(-24px);
-    animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    animation-timing-function: ease-in;
-  }
-  25%,
-  55%,
-  75%,
-  87% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
-.rectangle-icon3 {
-  position: absolute;
-  top: 448px;
-  left: 39px;
-  border-radius: 10px;
-  width: 140px;
-  height: 115px;
-  object-fit: cover;
-  cursor: pointer;
+.rectangle-icon3,
+.rectangle-icon4,
+.rectangle-icon5,
+.rectangle-icon6,
+.rectangle-icon7 {
+  top: 300px;
 }
 .rectangle-icon3:active {
-  animation: 3s ease 0s 1 normal none bounce-top;
+  animation: 2s ease 0s 1 normal none bounce-top;
 }
-@keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translateY(-24px);
-    animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    animation-timing-function: ease-in;
-  }
-  25%,
-  55%,
-  75%,
-  87% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
-.rectangle-icon4 {
-  position: absolute;
-  top: 596px;
-  left: 39px;
-  border-radius: 10px;
-  width: 140px;
-  height: 115px;
-  object-fit: cover;
-  cursor: pointer;
+.rectangle-icon4,
+.rectangle-icon5,
+.rectangle-icon6,
+.rectangle-icon7 {
+  top: 448px;
 }
 .rectangle-icon4:active {
   animation: 3s ease 0s 1 normal none bounce-top;
 }
-@keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translateY(-24px);
-    animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    animation-timing-function: ease-in;
-  }
-  25%,
-  55%,
-  75%,
-  87% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
-.rectangle-icon5 {
-  position: absolute;
+.rectangle-icon5,
+.rectangle-icon6,
+.rectangle-icon7 {
   top: 152px;
   left: 196px;
-  border-radius: 10px;
-  width: 140px;
-  height: 115px;
-  object-fit: cover;
-  cursor: pointer;
 }
 .rectangle-icon5:active {
   animation: 2s ease 0s 1 normal none bounce-top;
 }
-@keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translateY(-24px);
-    animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    animation-timing-function: ease-in;
-  }
-  25%,
-  55%,
-  75%,
-  87% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
-.rectangle-icon6 {
-  position: absolute;
+.rectangle-icon6,
+.rectangle-icon7 {
   top: 300px;
-  left: 196px;
-  border-radius: 10px;
-  width: 140px;
-  height: 115px;
-  object-fit: cover;
-  cursor: pointer;
 }
 .rectangle-icon6:active {
   animation: 3s ease 0s 1 normal none bounce-top;
 }
-@keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translateY(-24px);
-    animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    animation-timing-function: ease-in;
-  }
-  25%,
-  55%,
-  75%,
-  87% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
 .rectangle-icon7 {
-  position: absolute;
   top: 448px;
-  left: 196px;
-  border-radius: 10px;
-  width: 140px;
-  height: 115px;
-  object-fit: cover;
-  cursor: pointer;
 }
 .rectangle-icon7:active {
   animation: 2s ease 0s 1 normal none bounce-top;
 }
-@keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translateY(-24px);
-    animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    animation-timing-function: ease-in;
-  }
-  25%,
-  55%,
-  75%,
-  87% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
 .lesson1-div {
   position: relative;
-  background-color: #f7f1fb;
+  background-color: #ffdb48;
   width: 100%;
   height: 812px;
   overflow: hidden;
