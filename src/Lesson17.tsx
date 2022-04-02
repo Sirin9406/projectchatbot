@@ -13,7 +13,12 @@ export const Lesson17: FunctionComponent = () => {
     <div className="lesson1-7-div">
       <img className="rectangle-icon13" alt="" src="rectangle-75.svg" />
       <img
-        className="previous-2-icon6"
+        className="pink-yellow-and-green-illustra8"
+        alt=""
+        src="pink-yellow-and-green-illustrated-were-ready-to-open-instagram-story-21@2x.png"
+      />
+      <img
+        className="previous-2-icon7"
         alt=""
         src="previous-1@2x.png"
         onClick={onPrevious2ImageClick}
@@ -26,3 +31,4 @@ export const Lesson17: FunctionComponent = () => {
     </div>
   );
 };
+

@@ -12,14 +12,19 @@ export const Lesson12: FunctionComponent = () => {
   return (
     <div className="lesson1-2-div">
       <img
-        className="previous-2-icon1"
+        className="pink-yellow-and-green-illustra3"
+        alt=""
+        src="pink-yellow-and-green-illustrated-were-ready-to-open-instagram-story-21@2x.png"
+      />
+      <img
+        className="previous-2-icon2"
         alt=""
         src="previous-1@2x.png"
         onClick={onPrevious2ImageClick}
       />
       <label className="a-blocks-label1">A Blocks</label>
       <label className="a-code-label1">A Code</label>
-      <img className="image-3-icon" alt="" src="image-3@2x.png" />
+      <img className="image-3-icon1" alt="" src="image-3@2x.png" />
       <img className="image-4-icon" alt="" src="image-4@2x.png" />
       <img className="ledsgif-1-icon" alt="" src="ledsgif-1@2x.gif" />
     </div>

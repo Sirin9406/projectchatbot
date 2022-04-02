@@ -57,7 +57,7 @@ export const Lesson1: FunctionComponent = () => {
       <img
         className="rectangle-icon1"
         alt=""
-        src="rectangle-17@2x.png"
+        src="123pause.gif"
         onClick={onRectangleImageClick}
       />
       <img
@@ -93,13 +93,13 @@ export const Lesson1: FunctionComponent = () => {
       <img
         className="rectangle-icon6"
         alt=""
-        src="rectangle-14@2x.png"
+        src="string.gif"
         onClick={onRectangleImage5Click}
       />
       <img
         className="rectangle-icon7"
         alt=""
-        src="rectangle-16@2x.png"
+        src="iconleds.gif"
         onClick={onRectangleImage6Click}
       />
     </div>

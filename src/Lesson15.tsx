@@ -1,3 +1,4 @@
+
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./css/Lesson15.css";
@@ -13,7 +14,12 @@ export const Lesson15: FunctionComponent = () => {
     <div className="lesson1-5-div">
       <img className="rectangle-icon11" alt="" src="rectangle-73.svg" />
       <img
-        className="previous-2-icon4"
+        className="pink-yellow-and-green-illustra6"
+        alt=""
+        src="pink-yellow-and-green-illustrated-were-ready-to-open-instagram-story-21@2x.png"
+      />
+      <img
+        className="previous-2-icon5"
         alt=""
         src="previous-1@2x.png"
         onClick={onPrevious2ImageClick}
@@ -26,3 +32,4 @@ export const Lesson15: FunctionComponent = () => {
     </div>
   );
 };
+
